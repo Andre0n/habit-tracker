@@ -1,7 +1,7 @@
 const App = () => {
   return (
-    <div className="flex h-screen flex-col justify-between gap-4 p-4">
-      <header>
+    <div className="flex h-screen w-screen flex-col justify-between gap-4 px-4 py-6 md:mx-auto md:w-1/2 lg:w-1/3 ">
+      <header className="flex items-center justify-between">
         <h1 className="text-xl font-medium">Habits</h1>
       </header>
       <main className="flex flex-1 flex-col">
